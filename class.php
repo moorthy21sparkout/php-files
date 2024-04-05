@@ -1,5 +1,5 @@
 <?php
-/*function add(){
+function add(){                    // procedural programming
     $a=10;
     $b=23;
     $c=$a+$b;
@@ -14,8 +14,8 @@ function sub()
 }
 echo "total value is: ".add();
 echo "<br> total value is:".sub();
-*/
-class opp{
+echo "<hr>";
+class opp{                                         //object orented programming.
     public $a,$b,$c;//property.
 
     function add()
